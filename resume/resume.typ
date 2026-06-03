@@ -45,7 +45,7 @@
 #v(0.05em)
 
 #align(center)[
-  #text(size: 7.25pt)[New York, NY |  | #link("mailto:sidneylisanza@gmail.com")[#text("sidneylisanza@gmail.com")] | #link("https://www.linkedin.com/in/sidney-lisanza-00b012178/")[LinkedIn] | #link("https://scholar.google.com/citations?user=7auBhooAAAAJ&hl=en")[Google Scholar]]
+  #text(size: 7.25pt)[New York, NY | #link("mailto:sidneylisanza@gmail.com")[#text("sidneylisanza@gmail.com")] | #link("https://www.linkedin.com/in/sidney-lisanza-00b012178/")[LinkedIn] | #link("https://scholar.google.com/citations?user=7auBhooAAAAJ&hl=en")[Google Scholar]]
 ]
 
 #v(0.14em)
