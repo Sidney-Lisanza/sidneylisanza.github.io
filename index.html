@@ -24,6 +24,7 @@
           <a href="#about">About</a>
           <a href="#work">Work</a>
           <a href="#publications">Publications</a>
+          <a href="Sidney_Lisanza_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
           <a href="#contact">Contact</a>
         </nav>
       </header>
@@ -31,17 +32,33 @@
       <main id="top">
         <section class="hero">
           <div class="hero-copy">
-            <p class="eyebrow">Machine Learning Scientist</p>
-            <h1>
-              Training generative and reasoning models for protein design.
-            </h1>
-            <p class="hero-text">
-              I build machine learning systems for biomolecular design, with a
-              focus on turning experimental constraints into models, molecules,
-              and iterative discovery loops that work in practice.
-            </p>
+            <div class="hero-intro">
+              <figure class="hero-portrait reveal">
+                <img
+                  src="1628526151365.jpeg"
+                  alt="Portrait of Sidney Lisanza"
+                />
+              </figure>
+              <div class="hero-copy-text">
+                <p class="eyebrow">Machine Learning Scientist</p>
+                <h1>
+                  Training generative and reasoning models for protein design.
+                </h1>
+                <p class="hero-text">
+                  I build models for biomolecular design, with a
+                  focus on therapeutics.
+                </p>
+              </div>
+            </div>
             <div class="hero-actions">
               <a class="button button-primary" href="#contact">Get in touch</a>
+              <a
+                class="button button-secondary"
+                href="Sidney_Lisanza_Resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+                >View resume</a
+              >
               <a class="button button-secondary" href="#publications"
                 >View publications</a
               >
@@ -52,15 +69,21 @@
             <p class="card-label">Currently</p>
             <p class="card-title">Prescient Design at Genentech</p>
             <p class="card-text">
-              Partnering across experimental, chemistry, platform, and machine
-              learning teams to build design systems for peptides and protein
-              therapeutics.
+              Working with a cross-disciplinary team, I develop and train
+              generative models for therapeutic design that satisfy
+              multi-objective constraints tied to experimental endpoints. My
+              work has spanned large molecules, including antibodies, as well
+              as peptides and small molecules.
             </p>
             <ul class="signal-list">
               <li>Protein design</li>
+	      <li>Co-sequence structure models</li>
               <li>Generative models</li>
-              <li>Reasoning workflows</li>
-              <li>Design-build-test loops</li>
+	      <li>Discrete diffusion</li>
+	      <li>Flow matching</li>
+              <li>Reasoning</li>
+	      <li>Post Training</li>
+              <li>Active Learning</li>
             </ul>
           </aside>
         </section>
@@ -68,30 +91,35 @@
         <section class="section" id="about">
           <div class="section-heading">
             <p class="eyebrow">About</p>
-            <h2>Bridging computational design and experimental reality.</h2>
           </div>
           <div class="about-grid">
             <p>
               I’m a computational biochemist and machine learning scientist with
               a PhD in Biochemistry from the University of Washington, where I
-              trained in the Baker Lab at the Institute for Protein Design.
+              trained under David Baker at the Institute for Protein Design.
             </p>
             <p>
-              My work sits at the interface of generative modeling, protein
-              structure, and therapeutic discovery. I like problems where model
-              development has to stay tightly connected to real experimental
-              constraints.
+              My work sits at the interface of science and science fiction. I
+              like pushing the frontiers of biomolecular design by leveraging
+              the latest advances in machine learning.
             </p>
             <p>
-              At Prescient Design, I work with collaborators across biology,
-              chemistry, and platform teams to translate target-product goals
-              into model requirements and iterative design strategies.
+              At Prescient Design, I work with collaborators across the
+              Roche/Genentech organization to translate therapeutic goals into
+              model requirements. I have worked on latent generative models for
+              co-sequence structure design, trained large language models for
+              protein design, and contributed to active pipeline projects. This
+              work has led to several forthcoming manuscripts.
             </p>
             <p>
-              Earlier, I helped develop deep learning methods for functional
-              site scaffolding and sequence-structure diffusion, including work
-              that led to ProteinGenerator and related publications in
-              <em>Science</em>, <em>Nature Biotechnology</em>, and beyond.
+              At the Baker Lab within the Institute for Protein Design, I
+              developed deep learning methods for functional site scaffolding,
+              where we introduced constrained hallucination, a precursor to
+              frameworks like BindCraft, as well as sequence diffusion, where
+              we showed that sequence-structure pairs can be guided toward
+              desired properties such as proteins adopting multiple states.
+              This work led to publications in <em>Science</em>,
+              <em>Nature Biotechnology</em>, and beyond.
             </p>
           </div>
         </section>
@@ -99,7 +127,6 @@
         <section class="section" id="work">
           <div class="section-heading">
             <p class="eyebrow">Work</p>
-            <h2>A research profile shaped by models, collaboration, and iteration.</h2>
           </div>
           <div class="timeline">
             <article class="timeline-item reveal">
@@ -107,11 +134,16 @@
               <div>
                 <h3>Prescient Design, Genentech</h3>
                 <p>
-                  Developing machine learning methods for protein design and
-                  coordinating design-build-test workflows with experimental
-                  collaborators. The through-line is practical translation:
-                  turning biological constraints into model objectives that can
-                  survive iterative rounds of testing.
+                  I develop generative and reasoning models for protein design
+                  that accelerate therapeutic discovery across small molecules,
+                  peptides, and large molecules.
+                </p>
+                <p>
+                  I partner with experimental collaborators to translate
+                  multi-objective therapeutic constraints into model
+                  requirements, followed by iterative lab-in-the-loop cycles
+                  with machine learning and experimental teams to meet
+                  experimental endpoints.
                 </p>
               </div>
             </article>
@@ -130,50 +162,35 @@
             <article class="timeline-item reveal">
               <p class="timeline-date">Earlier</p>
               <div>
-                <h3>Research and teaching across computation and biochemistry</h3>
+                <h3>Undergraduate Research</h3>
                 <p>
-                  Worked on protein crystal design, signaling dynamics with
-                  FRET-based biosensors, and teaching in both biochemistry and
-                  protein design settings. I enjoy the part of science where
-                  methods become shared tools for other people.
+                  Baker Lab, UW: Worked on computational protein design,
+                  including co-assembling multi-component protein crystals.
+                </p>
+                <p>
+                  Hahn Lab, UNC: Studied GEF-H1 localization and activation
+                  dynamics using FRET-based biosensors and photoactivatable GEF
+                  inhibitors.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <p class="timeline-date">Community</p>
+              <div>
+                <h3>
+                  Co-organizer of the ICLR Workshop on Generative and
+                  Experimental Perspectives for Biomolecular Design, 2024, 2025,
+                  and 2026
+                </h3>
+                <p>
+                  ICLR GEM's goal is to foster collaboration between machine
+                  learning experts and experimental scientists.
                 </p>
               </div>
             </article>
           </div>
         </section>
 
-        <section class="section featured-section">
-          <div class="section-heading">
-            <p class="eyebrow">Selected Focus</p>
-            <h2>What I’m especially excited by.</h2>
-          </div>
-          <div class="feature-grid">
-            <article class="feature-card reveal">
-              <h3>Constraint-aware design</h3>
-              <p>
-                Building systems that start from real target requirements, not
-                toy objectives, and use those constraints to shape model design
-                and experimental follow-up.
-              </p>
-            </article>
-            <article class="feature-card reveal">
-              <h3>Protein generation</h3>
-              <p>
-                Exploring how sequence, structure, and function can be modeled
-                jointly to make protein generation more controllable and more
-                useful for discovery.
-              </p>
-            </article>
-            <article class="feature-card reveal">
-              <h3>Cross-functional science</h3>
-              <p>
-                Working in the handoff zones between machine learning,
-                computation, chemistry, and experimental biology where alignment
-                matters as much as raw model performance.
-              </p>
-            </article>
-          </div>
-        </section>
 
         <section class="section" id="publications">
           <div class="section-heading">
@@ -253,13 +270,8 @@
             <h2>Say hello.</h2>
           </div>
           <div class="contact-grid">
-            <p>
-              I’m especially happy to talk about protein design, biomolecular
-              machine learning, design-build-test workflows, and collaborative
-              scientific tooling.
-            </p>
             <div class="contact-links">
-              <a href="mailto:lisanza@uw.edu">lisanza@uw.edu</a>
+              <a href="mailto:sidneylisanza@gmail.com">sidneylisanza@gmail.com</a>
               <a
                 href="https://www.linkedin.com/in/sidney-lisanza-00b012178/"
                 target="_blank"
@@ -272,8 +284,11 @@
                 rel="noreferrer"
                 >Google Scholar</a
               >
-              <a href="https://github.com/sidneylisanza" target="_blank" rel="noreferrer"
+              <a href="https://github.com/Sidney-Lisanza" target="_blank" rel="noreferrer"
                 >GitHub</a
+              >
+              <a href="Sidney_Lisanza_Resume.pdf" target="_blank" rel="noreferrer"
+                >Resume</a
               >
             </div>
           </div>
